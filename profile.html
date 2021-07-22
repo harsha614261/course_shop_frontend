@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<title>My profile</title>
+		<style>
+			body{
+				background-image:url('1317834.jpg');
+				
+			}
+			.div1{
+				background-image:url("1336125.jpg");
+				margin-left:50px;
+				margin-top:30px;
+				border:1px solid white;
+				border-radius:20px;
+				width:25%;
+				height:80%;
+				margin:auto;
+			}
+			ul{
+				background-color:none;
+				list-style:none;
+				margin-top:20px;
+			}
+			img{
+				height:230px;
+				width:230px;
+				margin-left:40px;
+				margin-top:10px;
+			}
+			.div0{
+				margin-left:510px;
+				width:325px;
+				background-image:url("1336125.jpg");
+				text-align:center;
+				margin-top:60px;
+				border-radius:20px;
+				
+			}
+			@media only screen and (max-width: 600px){
+				.div0{
+					margin-left:25px;
+					width:275px;
+					background-image:url("1336125.jpg");
+					text-align:center;
+					margin-top:30px;
+				}
+				.div1{
+				background-image:url("1336125.jpg");
+				margin-left:15px;
+				margin-top:20px;
+				border:1px solid white;
+				border-radius:20px;
+				width:85%;
+				height:80%;
+				
+			}
+			body{
+				background-image:url('1317834.jpg');
+				background-size: cover;
+			}
+			img{
+				height:230px;
+				width:230px;
+				margin-left:30px;
+				margin-top:10px;
+			}
+			
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div0">
+				<h2>My Profile</h2>
+		</div>
+		<div class="div1">
+			<img src="user.png"/>
+			
+			<ul>
+				<li><h3>Username:{{uname}}</h3></li>
+				<li><h3>Name&nbsp;&nbsp;    :{{name}}<h3></li>
+				<li><h3>E-mail  :{{mail}}<h3></li>
+				<li><h3>Contact :{{contact}}<h3></li>
+			</ul>
+		</div>
+	</body>
+</html>
